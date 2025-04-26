@@ -45,8 +45,9 @@ This is a simple CRUD Employee Rest API project to create, fetch, update, and de
 | `PUT`   | `/api/employees` | Update an existing employee |
 | `DELETE`   | `/api/employees/{employeeId}` | Delete an existing employee |
 
+## Communication
 
-I hope you had a lot of fun with this project as I did creating it. Please share your thoughts on the project based on your experience. What you have learnt or improve. More information on how to reach me: linkedin: https://www.linkedin.com/in/xola-mkhatshwa-966482a0/ or email: mkhatshwa.xola@gmail.com or [xolamkhatshwa.com](https://xolamkhatshwa.com/) 
+I hope you have fun with this project as I did creating it. Please share your thoughts based on your experience. What you have learnt or to improve. Connect with me: linkedin: https://www.linkedin.com/in/xola-mkhatshwa-966482a0/ or email: mkhatshwa.xola@gmail.com or [xolamkhatshwa.com](https://xolamkhatshwa.com/) 
 
 Thank you. 
 
