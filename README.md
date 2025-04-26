@@ -36,7 +36,9 @@ This is a simple CRUD Employee Rest API project to create, fetch, update, and de
     - Run the code
 - Testing
   	- Download and Install Postman
- 
+
+### API end points
+
 | HTTP Method | Endpoint | CRUD Action |
 | :---         |     :---:      |          ---: |
 | `POST`  | `/api/employees` | Create a new employee    |
@@ -44,6 +46,13 @@ This is a simple CRUD Employee Rest API project to create, fetch, update, and de
 | `GET`   | `/api/employees/{employeeId}` | Read a single employee |
 | `PUT`   | `/api/employees` | Update an existing employee |
 | `DELETE`   | `/api/employees/{employeeId}` | Delete an existing employee |
+
+### Actuator end points
+
+| HTTP Method | Endpoint |                      Action |
+| :---         |     :---:      |----------------------------:|
+| `GET`   | `/actuator/info` |         Read info about API |
+| `GET`   | `/actuator/health` |          Read status of API |
 
 ## Communication
 
