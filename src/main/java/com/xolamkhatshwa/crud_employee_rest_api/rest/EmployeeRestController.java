@@ -1,5 +1,6 @@
 package com.xolamkhatshwa.crud_employee_rest_api.rest;
 
+import com.xolamkhatshwa.crud_employee_rest_api.entity.Employee;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
