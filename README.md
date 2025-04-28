@@ -70,14 +70,14 @@ Users (messi, ronaldo and james) will perform specific actions based on their ro
           "email": "diegom@xolamkhatshwa.co.za",
           "_links": {
               "self": {
-                  "href": "http://localhost:8081/api/employees/29"
+                  "href": "http://localhost:8081/api/employees/1"
               },
               "employee": {
-                  "href": "http://localhost:8081/api/employees/29"
+                  "href": "http://localhost:8081/api/employees/1"
                }
           }
     }`
-- POST:http://localhost:8081/api/employees
+- POST: http://localhost:8081/api/employees
   - Body: 
     `{
         "firstName":"Xola",
