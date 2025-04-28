@@ -31,8 +31,8 @@ CREATE TABLE `user` (
 
 INSERT INTO `user` (`username`,`password`,`enabled`)
 VALUES
-('messi','$2a$10$oF5LejieRJafxQFp8a8.rOGpe7hhz2Z3kSs2R3udYqfKN8M9q0tcm',1),
 ('ronaldo','$2a$10$oF5LejieRJafxQFp8a8.rOGpe7hhz2Z3kSs2R3udYqfKN8M9q0tcm',1),
+('messi','$2a$10$oF5LejieRJafxQFp8a8.rOGpe7hhz2Z3kSs2R3udYqfKN8M9q0tcm',1),
 ('james','$2a$10$oF5LejieRJafxQFp8a8.rOGpe7hhz2Z3kSs2R3udYqfKN8M9q0tcm',1);
 
 

@@ -32,7 +32,8 @@ This is a simple CRUD Employee Rest API project to create, fetch, update, and de
     - Run Scripts from the scripts folder
 - API Development
     - Download and Install Java JDK 21
-    - Download and install IntelliJ Community Edition
+    - Download and install IntelliJ Community Edition or IDE of your choice
+    - Enable Lombok processing on your IDE
     - Run the code
 - Testing
   	- Download and Install Postman
@@ -46,6 +47,60 @@ This is a simple CRUD Employee Rest API project to create, fetch, update, and de
 | `GET`   | `/api/employees/{employeeId}` | Read a single employee |
 | `PUT`   | `/api/employees/{employeeId}` | Update an existing employee |
 | `DELETE`   | `/api/employees/{employeeId}` | Delete an existing employee |
+
+#### Examples
+Using Basic Auth, username and password. 
+
+Users (messi, ronaldo and james) will perform specific actions based on their roles
+
+- GET: http://localhost:8081/employees
+- GET: http://localhost:8081/api/employees/13
+- DELETE: http://localhost:8081/api/employees/13
+- PUT: http://localhost:8081/api/employees/1
+  - Body: 
+    `{
+        "firstName":"Diego",
+        "lastName":"Maradona",
+        "email":"diegom@xolamkhatshwa.co.za"
+    }`
+  - Response:
+    `{
+          "firstName": "Diego",
+          "lastName": "Maradona",
+          "email": "diegom@xolamkhatshwa.co.za",
+          "_links": {
+              "self": {
+                  "href": "http://localhost:8081/api/employees/29"
+              },
+              "employee": {
+                  "href": "http://localhost:8081/api/employees/29"
+               }
+          }
+    }`
+- POST:http://localhost:8081/api/employees
+  - Body: 
+    `{
+        "firstName":"Xola",
+        "lastName":"Mkhatshwa",
+        "email":"xolam@xolamkhatshwa.co.za"
+    }`
+  - Response:
+   `{
+          "firstName": "Xola",
+          "lastName": "Mkhatshwa",
+          "email": "xolam@xolamkhatshwa.co.za",
+          "_links": {
+              "self": {
+                  "href": "http://localhost:8081/api/employees/29"
+              },
+              "employee": {
+                  "href": "http://localhost:8081/api/employees/29"
+              }
+          }
+    }`
+  
+
+![img.png](img.png)
 
 ### Actuator endpoints
 
