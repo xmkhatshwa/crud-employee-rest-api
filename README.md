@@ -12,7 +12,7 @@ This is a simple CRUD Employee Rest API project to create, fetch, update, and de
 -	Spring Actuator
 -	Spring Security
 -	Spring AOP
--	MyQSL Database
+-	MySQL Database
 -	Lambok
 -	Maven
 -	Java 21
