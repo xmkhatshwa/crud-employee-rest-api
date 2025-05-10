@@ -23,6 +23,7 @@ This is a simple CRUD Employee Rest API project to create, fetch, update, and de
 -	Postman
 -	Github
 -	Tomcat Server
+-	MySQL Workbench 
 
 
 ## Project setup instructions
