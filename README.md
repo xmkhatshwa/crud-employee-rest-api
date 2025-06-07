@@ -38,7 +38,7 @@ This is a simple CRUD Employee Rest API project to create, fetch, update, and de
     - Enable Lombok processing on your IDE
     - Run the code
 - Testing
-  	- Download and Install Postman
+  	- Download and Install Postman or use Swagger as alternative on http://localhost:8081/docs
 
 ### API endpoints
 
