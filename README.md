@@ -17,6 +17,7 @@ This is a simple CRUD Employee Rest API project to create, fetch, update, and de
 -	Maven
 -	Java 21
 -	Spring Boot Dev Tools
+-Swagger
 
 ## Tools
 -	IntelliJ Community Edition
