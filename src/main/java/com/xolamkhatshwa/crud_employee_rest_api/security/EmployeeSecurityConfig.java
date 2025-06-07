@@ -36,7 +36,10 @@ public class EmployeeSecurityConfig {
                         .requestMatchers(HttpMethod.POST, "/api/employees").hasRole("MANAGER")
                         .requestMatchers(HttpMethod.PUT, "/api/employees/*").hasRole("MANAGER")
                         .requestMatchers(HttpMethod.DELETE, "/api/employees/**").hasRole("ADMIN")
-                        .requestMatchers(HttpMethod.GET, "/actuator/**").permitAll());
+                        .requestMatchers(HttpMethod.GET, "/actuator/**").permitAll()
+                        .requestMatchers(HttpMethod.GET, "/swagger-ui/**").permitAll()
+                        .requestMatchers(HttpMethod.GET, "/v3/api-docs*/**").permitAll()
+                        .requestMatchers(HttpMethod.GET, "/docs").permitAll());
 
         // use HTTP Basic authentication
         http.httpBasic(Customizer.withDefaults());

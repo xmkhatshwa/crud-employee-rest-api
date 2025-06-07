@@ -20,7 +20,8 @@ This is a simple CRUD Employee Rest API project to create, fetch, update, and de
 
 ## Tools
 -	IntelliJ Community Edition
--	Postman
+-	Postman 
+-   Swagger
 -	Github
 -	Tomcat Server
 -	MySQL Workbench 
@@ -110,9 +111,19 @@ Users (messi, ronaldo and james) will perform specific actions based on their ro
 | `GET`   | `/actuator/info` |         Read info about API |
 | `GET`   | `/actuator/health` |          Read status of API |
 
+
+### Swagger endpoints
+
+| HTTP Method |      Endpoint      |                        Action |
+| :---         |:------------------:|------------------------------:|
+| `GET`   |      `/docs`       | Read all Swagger exposed APIs |
+
+![img_1.png](img_1.png)
+
+
 ## Communication
 
-I hope you have fun with this project as I did creating it. Please share your thoughts based on your experience. What you have learnt or to improve. Connect with me: linkedin: https://www.linkedin.com/in/xola-mkhatshwa-966482a0/ or email: mkhatshwa.xola@gmail.com or [xolamkhatshwa.com](https://xolamkhatshwa.com/) 
+I hope you have fun with this project as I did create it. Please share your thoughts based on your experience. What you have learnt or to improve. Connect with me: linkedin: https://www.linkedin.com/in/xola-mkhatshwa-966482a0/ or email: mkhatshwa.xola@gmail.com or [xolamkhatshwa.com](https://xolamkhatshwa.com/) 
 
 Thank you. 
 
