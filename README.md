@@ -47,9 +47,9 @@ This is a simple CRUD Employee Rest API project to create, fetch, update, and de
 | :---         |     :---:      |          ---: |
 | `POST`  | `/api/employees` | Create a new employee    |
 | `GET`   | `/api/employees` | Read a list of employees |
-| `GET`   | `/api/employees/{employeeId}` | Read a single employee |
-| `PUT`   | `/api/employees/{employeeId}` | Update an existing employee |
-| `DELETE`   | `/api/employees/{employeeId}` | Delete an existing employee |
+| `GET`   | `/api/employees/{id}` | Read a single employee |
+| `PUT`   | `/api/employees/{id}` | Update an existing employee |
+| `DELETE`   | `/api/employees/{id}` | Delete an existing employee |
 
 #### Examples
 Using Basic Auth, username and password. 
