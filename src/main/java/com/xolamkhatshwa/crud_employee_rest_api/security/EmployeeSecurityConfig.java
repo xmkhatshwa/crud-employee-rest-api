@@ -48,6 +48,7 @@ public class EmployeeSecurityConfig {
         // in general not required for stateless REST APIs that use POST, PUT, DELETE and/or PATCH
         http.csrf(csrf -> csrf.disable());
 
+        // Enable Swagger to control authentication not browser
         http.exceptionHandling(exceptionHandling -> exceptionHandling
                 .authenticationEntryPoint(authenticationEntryPoint()));
 
@@ -56,6 +57,7 @@ public class EmployeeSecurityConfig {
         return http.build();
     }
 
+    // Enable Swagger to control authentication not browser and Return an Error when Auth Fails
     @Bean
     public AuthenticationEntryPoint authenticationEntryPoint() {
 
